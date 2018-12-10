@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Mail via PHP</title>
+    <form id="contact" action="mail.php" method="POST">
+        <div class="field">
+            <label class="fixed_width" for="name">Name:</label><input id="name" name="name" value="Name"/>
+        </div>
+        <div class="field">
+            <label class="fixed_width" for="surname">Surname:</label><input id="surname" name="surname" value="Surname"/>
+        </div>
+        <div class="field">
+            <label class="fixed_width" for="mail">E-mail:</label><input id="mail" name="mail" value="E-mail"/>
+        </div>
+        <div class="field" id="message">
+            <label class="fixed_width" id="message_width" for="mail">Message:</label>
+            <textarea id="message" name="message" />Type your message...</textarea>
+        </div>
+        <div>
+            <input class="width" type="submit" value="Send" />
+        </div>
+    </form>
+
+</head>
+<body>
+
+</body>
+</html>
